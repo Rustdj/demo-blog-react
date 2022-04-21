@@ -10,7 +10,11 @@
 
 
 .page_404{ 
-  padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+  position: relative;
+  top: 139px;
+  padding:40px 0;
+  background:#fff; 
+  font-family: 'Arvo', serif;
 }
 
 .page_404  img{ 
@@ -26,6 +30,7 @@
  
  
 .four_zero_four_bg h1{
+  text-align: center;
   font-size:80px;
   color: #000;
 }
@@ -43,4 +48,5 @@
 }
 .contant_box_404{ 
   margin-top:-50px;
+  text-align: center;
 }
