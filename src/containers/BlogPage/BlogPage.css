@@ -1,0 +1,173 @@
+.count {
+    text-align: center;
+}
+
+.count button {
+    padding: 4px 20px;
+    font-size: 16px;
+    background-color: #3939;
+    color: #fff;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.count button:hover {
+    background-color: #656161;
+}
+
+.buttons {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.5s;
+    background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+    box-shadow: 5px 10px 20px rgb(0 0 0 / 30%), -5px -10px 20px rgb(255 255 255 / 50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.buttons:hover {
+    transition: all 0.5s;
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 1px 2px 15px;
+}
+
+.buttonTop {
+
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d15700;
+    color: #d15700;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin: 50px 60% 0px 0px;
+    transition: all .5s;
+}
+
+.buttonRight {
+    
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    border: 1px solid #d15700;
+    color: #d15700;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    left: 75%;
+    top: 114px;
+    transition: all .5s;
+}
+
+.buttonTop:hover {
+    background-color: #d15700;
+    color: white;
+    transition: all .5s;
+}
+
+
+.post {
+    padding: 30px 70px 50px 70px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px;
+    width: 48%;
+    top: 105px;
+    opacity: 0.8;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: aliceblue;
+    transition: all .2s;
+}
+
+.post:hover {
+    opacity: 1;
+    transition: all .2s;
+    background: linear-gradient(to bottom, rgb(231, 233, 235), pink);
+
+}
+
+h1 {
+    color: #fff;
+}
+.modalAdd button {
+    position: absolute;
+    border-radius: 8px;
+    padding: 10px;
+    left: 54px;
+    top: 105px;
+    transition: all 0.5s;
+    background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+    box-shadow: 5px 10px 20px rgb(0 0 0 / 30%), -5px -10px 20px rgb(255 255 255 / 50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+.modalAdd button {
+    animation: spin 10s linear 0s infinite;
+} */
+
+.modalAdd button:hover {
+    transition: all 0.5s;
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 1px 2px 15px;
+}
+
+.css-62e83j-MuiCircularProgress-root {
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+hr {
+    /* border: 1px solid #c4c7c4; */
+    margin: 20px 0;
+	padding: 0;
+	height: 5px;
+	border: none;
+	box-sizing: border-box;
+	background-position: 50%;
+	color: orange;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="orange"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"></polygon><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"></polygon></svg>');
+	background-size: 6px 6px;
+}
+
+.moreDet {
+    color: #ff000066;
+    position: relative;
+    left: 48%;
+    top: 60px;
+    transition: all 0.3s;
+}
+
+.moreDet:hover {
+    color: #ff000066;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+}
+
+

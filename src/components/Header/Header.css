@@ -1,0 +1,47 @@
+.headerMain {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to right, #FFDDD6 20%, #FFF9ED 20%, #FFF9ED 80%, #DBDBDB 80%);
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgb(34 65 185) 0px 2px 30px;
+    height: 60px;
+    line-height: 3;
+    z-index: 1;
+    top: 0;
+}
+.headerMain h2 {
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: fantasy;
+}
+
+.MuiSwitch-root {
+    margin-left: 83%;
+}
+
+header a {
+    color: #000;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    position: absolute;
+    top: 4px;
+    left: 30px;
+}
+.top {
+    font-family: fantasy;
+    font-size: 30px;
+    line-height: 63px;
+}
+
+header a:hover {
+    color: #d15700;
+}
